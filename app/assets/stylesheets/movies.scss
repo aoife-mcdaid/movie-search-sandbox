@@ -14,18 +14,31 @@
     height: 30px;
   }
 
-  .result-containter {
+  .searchresults-container {
     display: flex;
-    margin: 20px auto;
-    width: 60%;
-  }
+    justify-content: center;
 
-  .result-text-container {
-    margin: 20px;
-    text-align: left;
+    .year-facets-container {
+      width: 20%;
+    }
 
-    .result-title {
-      font-size: 30px;
+    .result-containter {
+      display: flex;
+      margin: 20px auto;
+      width: 80%;
+    }
+
+    .result-text-container {
+      margin: 20px;
+      text-align: left;
+
+      .result-title {
+        font-size: 30px;
+
+        span {
+          color: pink;
+        }
+      }
     }
   }
 }
